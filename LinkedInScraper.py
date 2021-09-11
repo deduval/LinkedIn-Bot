@@ -26,3 +26,8 @@ passwordField[0].send_keys(password)
 #login
 loginButton = driver.find_element_by_class_name("sign-in-form__submit-button")
 loginButton.send_keys(Keys.RETURN)
+
+#click jobs
+jobButton = driver.find_element_by_xpath('//a[@href="/jobs/"]')
+jobButton.click()
+
